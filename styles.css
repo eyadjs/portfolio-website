@@ -9,7 +9,8 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     color:rgb(2, 2, 81);
     background-color: #f6f6bf;
  
@@ -144,9 +145,10 @@ section {
     font-family: 'Raleway';
     font-weight: bolder;
     font-size: 32px;
-    left: 580px;
-    top: 2330px;
+    left: 50px;
+    top: 2300px;
     z-index: 2;
+
 }
 
 .internship {
@@ -295,7 +297,7 @@ h6 { /* about page 'languages' */
     align-items: center;
     width: 600px;
     height: 600px;
-    transform: translate(720px, 2500px);
+    transform: translate(1000px, 2000px);
     z-index: 2
     
 }
@@ -352,8 +354,8 @@ h6 { /* about page 'languages' */
 
 .center:focus ~ .language-supp {
     
-    animation: goInvis 0.5s ease-out;
-    animation-fill-mode: forwards;
+    animation: blink 1s;
+    
 }
 
 .language:nth-of-type(1)::before,
@@ -633,7 +635,7 @@ h1::after {
     }
 }
 
-@keyframes goInvis {
+@keyframes tests {
     from {
         opacity: 1;
     }
@@ -647,7 +649,7 @@ h1::after {
 .card-list {
     display: flex;
     padding: 3rem;
-    transform: translate(200px, -200px);
+    transform: translate(0px, -200px);
 }
 
 .card {
@@ -677,4 +679,16 @@ h1::after {
 
 .card:not(:first-child) {
     margin-left: -130px;
+}
+
+.project-supp {
+    font-size: 30px;
+    font-family: 'Raleway';
+    transform: translate(1300px, -800px);
+}
+
+.experience-supp {
+    font-size: 30px;
+    font-family: 'Raleway';
+    transform: translate(50px, -300px);
 }
