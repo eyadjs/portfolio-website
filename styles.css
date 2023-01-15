@@ -5,7 +5,7 @@
  body {
 
     background-repeat: no-repeat;
-    height: max-content;
+    height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -13,6 +13,8 @@
     overflow-x: hidden;
     color:rgb(2, 2, 81);
     background-color: #f6f6bf;
+    display: grid;
+    
  
 }
 
@@ -20,13 +22,17 @@
  h1 { /* home page title */
     
     font-size: 50px;
-    left: 370px;
+   
+    
+    text-align: center;
     font-family: 'Xanh Mono';
     margin-top: 200px;
-
-
+    width: max-content; /* perfect for 100% zoom */
+    margin: 0 auto;
+    margin-top: 200px;
+    
     position: relative;
-    width: max-content;
+    
 }
 
 h2 { /* home page subtitle */
@@ -98,17 +104,17 @@ section {
 }
 
 .top-layer {
-    background-image: url('./top-layer.svg');
+    background-image: url('./images/top-layer.svg');
 }
 .middle-layer {
-    background-image: url('./middle-layer.svg');
+    background-image: url('./images/middle-layer.svg');
 }
 .middle-layer2 {
-    background-image: url('./middle-layer2.svg');
+    background-image: url('./images/middle-layer2.svg');
 }
 
 .bottom-layer {
-    background-image: url('./bottom-layer.svg');
+    background-image: url('./images/bottom-layer.svg');
 }
 .scroll {
     position: absolute;
@@ -145,9 +151,8 @@ section {
     font-family: 'Raleway';
     font-weight: bolder;
     font-size: 32px;
-    left: 50px;
-    top: 2300px;
     z-index: 2;
+    left: 80px
 
 }
 
@@ -170,25 +175,7 @@ h6 { /* about page 'languages' */
     font-size: 30px;
 }
 
-.wave {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
 
-.wave svg {
-    position: relative;
-    display: block;
-    width: calc(129% + 1.3px);
-    height: 135px;
-}
-
-.wave .shape-fill {
-    fill: #f5f5dc;
-}
 .test{
     position: absolute;
     bottom: 1200px;
@@ -297,7 +284,7 @@ h6 { /* about page 'languages' */
     align-items: center;
     width: 600px;
     height: 600px;
-    transform: translate(1000px, 2000px);
+    right: 5vw;
     z-index: 2
     
 }
