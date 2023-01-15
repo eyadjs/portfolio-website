@@ -1,57 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Xanh+Mono&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Source+Code+Pro:wght@200&display=swap');
  body {
-
     background-repeat: no-repeat;
-    height: 100%;
     width: 100%;
-    padding: 0;
+    height: 100%;
     margin: 0;
-    overflow-y: auto;
+    padding: 0;
     overflow-x: hidden;
+    overflow-y: auto;
     color:rgb(2, 2, 81);
-    background-color: #f6f6bf;
+    background-color: #aed9e0;
     display: grid;
-    
- 
 }
 
 
  h1 { /* home page title */
-    
     font-size: 50px;
-   
-    
     text-align: center;
-    font-family: 'Xanh Mono';
+    font-family: 'Source Code Pro', monospace;
     margin-top: 200px;
-    width: max-content; /* perfect for 100% zoom */
+    width: max-content; 
     margin: 0 auto;
     margin-top: 200px;
-    
     position: relative;
-    
 }
 
 h2 { /* home page subtitle */
     text-align: center;
     font-size: 28px;
     margin-top: 2px;
-    font-family: 'Raleway';
-  
+    font-family: 'Source Code Pro', monospace;
     opacity: 0;
     transform: translate(-5px,3rem);
     animation: fade1 0.8s ease 5.5s forwards;
-    
-    
 }
 
 h3 {
     color: rgb(2, 2, 116);
     font-size: 75px;
-    font-family: 'Xanh Mono';
+    font-family: 'Poppins', sans-serif;
     margin-top: 300px;
     margin-left: 50px;
 }
@@ -60,18 +46,17 @@ p { /* about page text */
     color: rgb(2, 2, 81);
     font-size: 15px;
     font-weight: bolder;
-    font-family: 'Raleway';
-    
-    
+    font-family: 'Poppins', sans-serif;
+
 }
 
 h4 { /* bottom of contact page */
     text-align: center;
     color: rgb(2, 2, 116);
-    font-family: 'Raleway';
+    font-family: 'Poppins', sans-serif;
+
     font-weight: bolder;
     font-size: 27px;
-    
 }
 
 section {
@@ -80,7 +65,6 @@ section {
     place-items: center;
     align-content: center;
     min-height: 100vh;
-    
 }
 
 .c1 {
@@ -119,16 +103,17 @@ section {
 .scroll {
     position: absolute;
     color: rgb(2, 2, 116);
-    font-family: 'Raleway';
+    font-family: 'Poppins', sans-serif;
+
     font-weight: bolder;
     font-size: 32px;
-    
-    
 }
+
 .education {
     position: absolute;
     color: rgb(2, 2, 116);
-    font-family: 'Raleway';
+    font-family: 'Poppins', sans-serif;
+
     font-weight: bolder;
     font-size: 32px;
     text-align: center;
@@ -138,7 +123,8 @@ section {
 .passion {
     position: absolute;
     color: rgb(2, 2, 116);
-    font-family: 'Raleway';
+    font-family: 'Poppins', sans-serif;
+
     font-weight: bolder;
     font-size: 32px;
     text-align: center;
@@ -148,7 +134,8 @@ section {
 .language-supp { 
     position: absolute;
     color: rgb(2, 2, 116);
-    font-family: 'Raleway';
+    font-family: 'Poppins', sans-serif;
+
     font-weight: bolder;
     font-size: 32px;
     z-index: 2;
@@ -159,7 +146,8 @@ section {
 .internship {
     position: absolute;
     color: rgb(2, 2, 116);
-    font-family: 'Raleway';
+    font-family: 'Poppins', sans-serif;
+
     font-weight: bolder;
     font-size: 32px;
     text-align: center;
@@ -170,7 +158,8 @@ h6 { /* about page 'languages' */
     position: relative;
     color: rgb(2, 2, 116);
     transform: translate(170px, -120px);
-    font-family: 'Raleway';
+    font-family: 'Poppins', sans-serif;
+
     font-weight: bolder;
     font-size: 30px;
 }
@@ -234,13 +223,14 @@ h6 { /* about page 'languages' */
 .fa-square-github {
     font-size: 50px;
     color: rgb(2, 2, 81);
-    transform: translate(-5px, 125px);
+    
 }
 
 
 
 [data-tab-content] {
     display: none;
+    
 }
  .active[data-tab-content] {
     display: block;
@@ -252,30 +242,30 @@ h6 { /* about page 'languages' */
     justify-content: right;
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 0 px;
     color:rgb(2, 2, 81);
     border-bottom: 1px solid;
-    animation: ani1 500ms;
+    
     z-index: 5;
-    background: rgb(250, 250, 213);
+    background: #99C2C1;
     
     
 }
 .tab {
     cursor: pointer;
-    padding: 10px;
-    font-family: 'Raleway', sans-serif;
+    padding: 10px 20px 10px 30px;
+    font-family: 'Poppins', sans-serif;
     color:rgb(2, 2, 81);
-    font-size: 40px;
+    font-size: 30px;
     animation: ani2 500ms;
-    font-weight: 900;
+    font-weight: normal;
 }
 .tab.active {
     background-color: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .tab:hover{
-    font-weight: 600;
+    font-weight: bolder;
     text-decoration: underline;
 }
 .container {
@@ -285,7 +275,8 @@ h6 { /* about page 'languages' */
     width: 600px;
     height: 600px;
     right: 5vw;
-    z-index: 2
+    z-index: 2;
+    scale: 0.8
     
 }
  .icon {
@@ -355,10 +346,11 @@ h6 { /* about page 'languages' */
     height: 50px;
     width: 50px;
     background: black;
-    transform: translateX(0px) translateY(-310px) scale(var(--scale));
+    transform: translateX(17px) translateY(-310px) scale(var(--scale));
     transition: 50ms transform;
     transform-origin: bottom right;
     rotate: 300deg;
+    line-height: 1.2;
     
   }
 .language:nth-of-type(1)::before {
@@ -369,8 +361,9 @@ h6 { /* about page 'languages' */
     border-radius: 0.3rem;
     text-align: center;
     width: 200px;
-    height: 250px;
-    font-family: 'Raleway';
+    height: 270px;
+    font-family: 'Poppins', sans-serif;
+
     
     background: gray;
 }
@@ -392,7 +385,8 @@ h6 { /* about page 'languages' */
     transform: translateX(240px) translateY(70px) scale(var(--scale));
     transition: 50ms transform;
     transform-origin: bottom left;
-    rotate: 240deg
+    rotate: 240deg;
+    line-height: 1.2;
   }
 .language:nth-of-type(2)::before {
     content: attr(data-tooltip2);
@@ -402,8 +396,9 @@ h6 { /* about page 'languages' */
     border-radius: 0.3rem;
     text-align: center;
     width: 200px;
-    height: 250px;
-    font-family: 'Raleway';
+    height: 245px;
+    font-family: 'Poppins', sans-serif;
+
     
     background: gray;
 }
@@ -413,6 +408,7 @@ h6 { /* about page 'languages' */
 
 .language:nth-of-type(3)::before,
 .language:nth-of-type(3)::after {
+    line-height: 1.2;
     --scale: 0;
     position: absolute;
 
@@ -424,7 +420,7 @@ h6 { /* about page 'languages' */
     
     
     background: black;
-    transform: translateX(0) translateY(0) scale(var(--scale));
+    transform: translateX(5px) translateY(0) scale(var(--scale));
     transition: 50ms transform;
     transform-origin: left;
     rotate: 180deg
@@ -437,8 +433,9 @@ h6 { /* about page 'languages' */
     border-radius: 0.3rem;
     text-align: center;
     width: 150px;
-    height: 125px;
-    font-family: 'Raleway';
+    height: 150px;
+    font-family: 'Poppins', sans-serif;
+
     
     background: gray;
 }
@@ -450,6 +447,7 @@ h6 { /* about page 'languages' */
 
 .language:nth-of-type(4)::before,
 .language:nth-of-type(4)::after {
+    line-height: 1.2;
     --scale: 0;
     position: absolute;
 
@@ -461,7 +459,7 @@ h6 { /* about page 'languages' */
     
     
     background: black;
-    transform: translateX(30px) translateY(-50px) scale(var(--scale));
+    transform: translateX(20px) translateY(-50px) scale(var(--scale));
     transition: 50ms transform;
     transform-origin: left;
     rotate: 120deg
@@ -474,8 +472,9 @@ h6 { /* about page 'languages' */
     border-radius: 0.3rem;
     text-align: center;
     width: 150px;
-    height: 125px;
-    font-family: 'Raleway';
+    height: 150px;
+    font-family: 'Poppins', sans-serif;
+
     
     background: gray;
 }
@@ -498,6 +497,7 @@ h6 { /* about page 'languages' */
 
 .language:nth-of-type(5)::before,
 .language:nth-of-type(5)::after {
+    line-height: 1.2;
     --scale: 0;
     position: absolute;
 
@@ -509,7 +509,7 @@ h6 { /* about page 'languages' */
     
     
     background: black;
-    transform: translateX(-170px) translateY(140px) scale(var(--scale));
+    transform: translateX(-180px) translateY(140px) scale(var(--scale));
     transition: 50ms transform;
     transform-origin: right;
     rotate: 60deg
@@ -522,8 +522,9 @@ h6 { /* about page 'languages' */
     border-radius: 0.3rem;
     text-align: center;
     width: 220px;
-    height: 150px;
-    font-family: 'Raleway';
+    height: 175px;
+    font-family: 'Poppins', sans-serif;
+
     
     background: gray;
 }
@@ -533,12 +534,13 @@ h6 { /* about page 'languages' */
 
 .language:nth-of-type(6)::before,
 .language:nth-of-type(6)::after {
+    line-height: 1.2;
     --scale: 0;
     position: absolute;
     content: '';
     top: -0.25rem;
     
-    height: 50px;
+    height: 80px;
     width: 50px;
     
     
@@ -556,8 +558,9 @@ h6 { /* about page 'languages' */
     border-radius: 0.3rem;
     text-align: center;
     width: 150px;
-    height: 280px;
-    font-family: 'Raleway';
+    height: 320px;
+    font-family: 'Poppins', sans-serif;
+
     
     background: gray;
 }
@@ -570,9 +573,6 @@ h6 { /* about page 'languages' */
         transform: scale(0);
     }
     
-    90% {
-        transform: scale(1.1);
-    }
     
     100% {
         transform: scale(1);
@@ -590,7 +590,7 @@ h1::after {
     left: 0;
 }
 h1::before {
-    background: #f6f6bf;
+    background: #aed9e0;
     animation: typing 4s steps(45) 1.2s forwards;
 
 }
@@ -636,20 +636,31 @@ h1::after {
 .card-list {
     display: flex;
     padding: 3rem;
-    transform: translate(0px, -200px);
+    transform: translate(10vh, -20vh);
+    
 }
+
+.card-list-2 {
+    display: flex;
+    padding: 3rem;
+    transform: translate(50vh, -70vh);
+    
+
+}
+
 
 .card {
     height: 350px;
     width: 400px;
     min-width: 250px;
     padding: 1.5rem;
-    border-radius: 16px;
-    background: #ffe4c4;
-    box-shadow: -1rem 0 3rem #000;
+    border-radius: 10px;
+    background: #99C2C1;
+    box-shadow: -0.1rem 0 0.5rem #000;
+    
     display: flex;
     flex-direction: column;
-    transition: .2s;
+    transition: .15s;
     margin: 0;
     scroll-snap-align: start;
     clear: both;
@@ -668,14 +679,15 @@ h1::after {
     margin-left: -130px;
 }
 
-.project-supp {
-    font-size: 30px;
-    font-family: 'Raleway';
-    transform: translate(1300px, -800px);
+#projects {
+    height: 0px
 }
+    
 
-.experience-supp {
-    font-size: 30px;
-    font-family: 'Raleway';
-    transform: translate(50px, -300px);
-}
+
+
+
+
+
+
+
