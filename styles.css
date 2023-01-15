@@ -8,7 +8,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     color:rgb(2, 2, 81);
-    background-color: #aed9e0;
+    background-color: #99D0D3;
     display: grid;
 }
 
@@ -67,39 +67,15 @@ section {
     min-height: 100vh;
 }
 
-.c1 {
-    background: #f3f38e;
-}
-
-.c2 {
-    background: #ffe4c4;
-}
-
-.c3 {
-    background: #dbc3a4;
-}
-
 .spacer {
-    aspect-ratio: 960/540;
+    
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-image: linear-gradient(#83c7c6, #aed9e0);
 }
 
-.top-layer {
-    background-image: url('./images/top-layer.svg');
-}
-.middle-layer {
-    background-image: url('./images/middle-layer.svg');
-}
-.middle-layer2 {
-    background-image: url('./images/middle-layer2.svg');
-}
-
-.bottom-layer {
-    background-image: url('./images/bottom-layer.svg');
-}
 .scroll {
     position: absolute;
     color: rgb(2, 2, 116);
@@ -590,7 +566,7 @@ h1::after {
     left: 0;
 }
 h1::before {
-    background: #aed9e0;
+    background: #99D0D3;
     animation: typing 4s steps(45) 1.2s forwards;
 
 }
