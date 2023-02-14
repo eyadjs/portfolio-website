@@ -57,6 +57,8 @@ h4 { /* bottom of contact page */
 
     font-weight: bolder;
     font-size: 27px;
+    margin-bottom: -30px;
+    transform: translateY(-30px);
 }
 
 section {
@@ -612,14 +614,16 @@ h1::after {
 .card-list {
     display: flex;
     padding: 3rem;
-    transform: translate(10vh, -20vh);
+    transform: translate(5vh, -20vh);
+    
     
 }
 
 .card-list-2 {
     display: flex;
     padding: 3rem;
-    transform: translate(50vh, -70vh);
+    transform: translate(5vh, -70vh);
+    height: 600px;
     
 
 }
