@@ -1,0 +1,41 @@
+.fa-linkedin {
+    font-size: 50px;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 10%;
+    color:rgb(2, 2, 81);
+
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fade1 0.8s ease 6s forwards;
+}
+
+.fa-at {
+    font-size: 50px;
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 10%;
+    color:rgb(2, 2, 81);
+
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fade1 0.8s ease 6s forwards;
+}
+
+.fa-github {
+    font-size: 50px;
+    margin-left: 40%;
+    position: absolute;
+    margin-top: 10%;
+    color:rgb(2, 2, 81);
+
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fade1 0.8s ease 6s forwards;
+}
+
+.fa-square-github {
+    font-size: 50px;
+    color: rgb(2, 2, 81);
+    
+}
